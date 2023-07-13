@@ -1,0 +1,115 @@
+.searchsec{
+  padding: 60px 0;
+   text-align: center;
+
+   .search-content{
+
+     h3{
+       font-size: 36px;
+       font-weight: 400;
+     }
+   }
+   .searchmenu{
+       display: flex;
+       justify-content: center;
+       padding: 20px;
+      
+       li{
+         list-style: none;
+       }
+       .line::before{
+             content: "";
+             position: absolute;
+             width: 0;
+             border-bottom: 4px solid #d8232a;
+             border-radius: 40px;
+             bottom: 0;
+             left: 0;
+             transition: all 0.5s ease;
+       }
+       .line.active::before{
+         width: 100%;
+       }
+       .line:hover.line::before{
+         width: 100%;
+         
+       }
+     a{
+       text-decoration: none;
+       padding: 10px 20px;
+       position: relative;
+       line-height: 3;
+       color: #000;
+       font-weight: 500;
+     }
+     
+   }
+.searchbox{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       border: 1px solid #888484;
+       border-radius: 40px;
+       padding:8px 10px;
+     p{
+       font-size: 16px;
+       padding: 0 15px;
+       text-align: center;
+       color: #606060;
+     } 
+     .chennailoc{
+       background-color: #de9394;
+       border-radius: 40px;
+       padding: 5px 20px;
+     }
+     .searchcenter{
+       color: #d8232a;
+       display: flex;
+       align-items: center;
+       border-right: 1px solid rgb(199, 199, 199);
+       padding: 5px 0px;
+       font-size: 16px;
+     }
+     input{
+       border: none;
+       font-size: 20px;
+     }
+     input:focus{
+       outline: none;
+     }
+     button{
+       border: none;
+       background-color: #d8232a;
+       padding: 10px 30px;
+       border-radius: 50px;
+       display: flex;
+       align-items: center;
+       color: #fff;
+       font-size: 18px;
+       font-weight: 600;
+     }
+   }
+
+}
+select {
+ font-size: 16px;
+ padding: 4px;
+ border-radius: 4px;
+ background-color:transparent;
+ color: #333;
+ cursor: pointer;
+ border: none;
+ outline: none;
+}
+
+option {
+ font-size: 16px;
+ background-color: #fff;
+ color: #333;
+ padding: 8px;
+ width: 100px;
+ height: 200px;
+}
+.dropdown{
+  display: flex;
+}

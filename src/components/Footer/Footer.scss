@@ -1,0 +1,157 @@
+.footersection{
+    padding: 40px 0;
+    h2{
+        line-height: 50px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    p{
+        line-height: 22px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #303030;
+    }
+.end1{
+    padding:30px;
+        span{
+            font-style: italic;
+            font-size:30px;
+            color:orange;
+        }
+    }
+    p{
+        font-size: 15px;
+    }
+}
+.end2{
+    button{
+        background-color: orange;
+        border-radius:40px;
+        width: 80%;
+        height: 45px;
+        border: none;
+        font-size: 14px;
+    }
+}
+.but{
+    span{
+        background-color: #fff;
+        border-radius: 25px;
+        padding:3px 8px;
+        font-size: 10px;
+        margin-left:10px ;
+    }
+}
+.col-lg-7{
+    width: 58.33%;
+}
+.col-lg-5{
+    width: 41.66%;
+}
+.end3{
+    span{
+        text-decoration: underline;
+        font-size: 15px;
+        color: rgba(0, 0, 116, 0.74);
+    }
+}
+.end3{    
+    p{
+        font-size: 15px;
+    }
+}
+.end4{    
+    p{
+        font-size: 15px;
+    }
+}
+.end4{
+    h2{
+        line-height: 50px;
+    }
+}
+.Network{    
+   .footermenu{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    li{
+        list-style: none;
+        padding: 0 5px 10px 0;
+        width: 20%;
+    }
+   }
+}
+.Contact{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+   .playstore{
+        background-color: black;
+        padding: 10px 20px;
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .play{
+            color: #fff;
+            margin: 0 10px;
+        }
+     }
+   button{
+       border: none;
+       background-color: transparent;
+       color: #fff;
+   }
+   
+}
+ .end7{
+    button{
+        border-radius: 35px;
+        padding: 10px 30px;
+        background-color: black;
+        color: #fff;
+        border: none;
+       }
+ }
+.end7{
+    .play{
+        float:left;
+    }
+}
+.end8{
+    .face{
+        width:40px;
+        color: rgb(56, 56, 240);
+    }
+}
+.end8{
+    .tw{
+        width:40px;
+        color:#08d8f3;
+    }
+}
+.end8{
+    .in{
+        width:40px;
+        color: rgba(19, 19, 228, 0.897);
+    }
+}
+.end8{
+    .you{
+        width:40px;
+        color: rgba(238, 35, 35, 0.904);
+    }
+}
+.end8{
+    .inst{
+        width:40px;
+        color: rgb(252, 13, 172);
+    }
+}
+.col-lg-12{
+    width: 100%;
+    font-size: 15px;
+    margin:30px 0px;
+}
+

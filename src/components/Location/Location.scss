@@ -1,0 +1,124 @@
+.LocationSection {
+  padding: 40px 0;
+
+  .col {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .pro {
+    width: 80%;
+    height: auto;
+  }
+  .property1 {
+    border: 1px solid #8fe7ca7a;
+    background-color: #8fe7ca7a;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 15px #ccc;
+    h2 {
+      font-size: 40px;
+      line-height: 60px;
+      font-style: italic;
+    }
+    p {
+      font-size: 20px;
+      position: relative;
+    }
+    p::after {
+      position: absolute;
+      content: "";
+      top: 50px;
+      border-radius: 10px;
+      left: 0;
+      width: 40%;
+      border-bottom: 4px solid rgb(0, 204, 255);
+    }
+  }
+  .property2 {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 15px rgb(243, 232, 232);
+    border-radius: 10px;
+    border-top: 3px solid rgb(103, 139, 238);
+    padding: 15px 20px;
+    margin: 0 5px;
+    .Exit {
+      font-size: 15px;
+    }
+    h3 {
+      line-height: 30px;
+    }
+  }
+  .property01 {
+    p {
+      line-height: 30px;
+    }
+  }
+  .property02 {
+    p {
+      line-height: 50px;
+      letter-spacing: 2px;
+    }
+    .star {
+      color: #ebc600;
+      font-size: 15px;
+      margin-right: 60px;
+    }
+  }
+  .property03 {
+    img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      position: absolute;
+      margin-left: 15px;
+      z-index: 1;
+    }
+  }
+  .property04 {
+    h6 {
+      position: relative;
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #8fe7ca7a;
+      color: red;
+      font-size: 15px;
+      position: relative;
+      line-height: 30px;
+    }
+  }
+  .aro {
+    font-size: 20px;
+    position: absolute;
+    margin-top: 5px;
+  }
+  .property2:hover {
+    box-shadow: 0 0 20px 10px #ccc;
+  }
+  .property2:hover .aro {
+    padding-left: 10px;
+  }
+  .react-multiple-carousel__arrow--right {
+    right: calc(1% + 1px);
+  }
+  .react-multiple-carousel__arrow {
+    position: absolute;
+    outline: 0;
+    transition: all 0.5s;
+    border-radius: 35px;
+    z-index: 1000;
+    border: 0;
+    background: #ccc;
+    min-width: 43px;
+    min-height: 43px;
+    opacity: 1;
+    cursor: pointer;
+  }
+  .react-multiple-carousel__arrow:hover {
+    background: #fff;
+    color: #000;
+  }
+  .react-multiple-carousel__arrow--left {
+    left: calc(0% + 1px);
+  }
+}
